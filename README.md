@@ -1,6 +1,6 @@
 # Approach
 
-For this data modelin exercise, I decided to go with BigQuery because Flex is already utilizing it as part of their GCP adoption. BigQuery, being a modern data warehouse, supports **denormalized** data models. According to the [public documentation](https://cloud.google.com/bigquery/docs/best-practices-performance-nested): "It's best to use this strategy when the relationships are hierarchical and frequently queried together, such as in parent-child relationships."
+For this data modeling exercise, I decided to go with BigQuery because Flex is already utilizing it as part of their GCP adoption. BigQuery, being a modern data warehouse, supports **denormalized** data models. According to the [public documentation](https://cloud.google.com/bigquery/docs/best-practices-performance-nested): "It's best to use this strategy when the relationships are hierarchical and frequently queried together, such as in parent-child relationships."
 
 A traditional normalized data model creates multiple tables. This creates a more "clean" and efficient data model because it saves on redundant data. However, it would require multiple `JOIN`s and foreign keys would be less performant and more complex to query in BigQuery.
 
@@ -78,7 +78,7 @@ All monetary values are stored as string in the JSON file. JSON supports numeric
 
 ## Data Modeling
 
-![ERD Diamgram](erd.png)
+![ERD diagram](erd.png)
 
 ## Data Validation
 
@@ -116,7 +116,7 @@ d. Unbalanced Equation
 
 e. Robust Logging
 
-- Currenlty, the script prints to STDOUT
+- Currently, the script prints to STDOUT
 - Use the `logging` library or sanity checks in the data pipeline itself
 
 ## Summary of checks to conduct
