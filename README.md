@@ -1,7 +1,7 @@
 # Approach
 I decided to go with BigQuery because Flex is already utilizing it as part of their GCP adoption.
 
-A traditional normalized data model creates multiple tables. This creates a more "clean" and efficient data model because it saves on redundant tables. However, it would require multiple `JOIN`s and foreign keys would be less performant and more complex to query in BigQuery.
+A traditional normalized data model creates multiple tables. This creates a more "clean" and efficient data model because it saves on redundant data. However, it would require multiple `JOIN`s and foreign keys would be less performant and more complex to query in BigQuery.
 
 **Performance**:
 
