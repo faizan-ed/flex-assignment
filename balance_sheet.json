@@ -1,0 +1,216 @@
+{
+  "assets": {
+    "name": "ASSETS",
+    "value": "13318970.87",
+    "items": [
+      {
+        "account_id": null,
+        "name": "Current Assets",
+        "value": "13300233.24",
+        "items": [
+          {
+            "account_id": null,
+            "name": "Bank Accounts",
+            "value": "-513160.89",
+            "items": [
+              {
+                "account_id": "6c9790a2-0800-46cc-8c50-e29e69d8015c",
+                "name": "Flex Cash",
+                "value": "806291.61"
+              },
+              {
+                "account_id": "b58e60f6-fe20-451e-9fc2-87eb58bcb297",
+                "name": "Flex Checking",
+                "value": "-1272375.00"
+              },
+              {
+                "account_id": "c7a7a89e-cc40-40b0-90dd-60f0dadedc41",
+                "name": "Flex 2761",
+                "value": "-47077.50"
+              }
+            ]
+          },
+          {
+            "account_id": null,
+            "name": "Accounts Receivable",
+            "value": "13788410.16",
+            "items": [
+              {
+                "account_id": "bdd4df93-54ac-420c-8a9b-897a24f79c9c",
+                "name": "Accounts Receivable",
+                "value": "13788410.16"
+              }
+            ]
+          },
+          {
+            "account_id": null,
+            "name": "Other Current Assets",
+            "value": "24983.97",
+            "items": [
+              {
+                "account_id": "15560eaa-78c3-4ef6-bcc2-4697c9f509ef",
+                "name": "Payments to Deposit",
+                "value": "10000.00"
+              },
+              {
+                "account_id": "1d09f6de-b8e5-4865-94e4-5a1f15e0ce04",
+                "name": "Prepaid Expenses",
+                "value": "14983.97"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "account_id": null,
+        "name": "Fixed Assets",
+        "value": "18737.63",
+        "items": [
+          {
+            "account_id": null,
+            "name": "Property, Plant, and Equipment",
+            "value": "18737.63",
+            "items": [
+              {
+                "account_id": "47c124b7-efcb-4225-95b8-7b85e2dcb977",
+                "name": "Office Equipment",
+                "value": "14855.91"
+              },
+              {
+                "account_id": "3073b7ee-8d38-48e8-b2cc-a422ffb2d20f",
+                "name": "Furniture",
+                "value": "1017.08"
+              },
+              {
+                "account_id": "6450bea2-bafc-40a5-9faa-0a069669f758",
+                "name": "Computers and Accessories",
+                "value": "2864.64"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "liabilities": {
+    "name": "Liabilities",
+    "value": "1025016.99",
+    "items": [
+      {
+        "account_id": null,
+        "name": "Current Liabilities",
+        "value": "1014525.75",
+        "items": [
+          {
+            "account_id": null,
+            "name": "Accounts Payable",
+            "value": "83086.72",
+            "items": [
+              {
+                "account_id": null,
+                "name": "Accounts Payable",
+                "value": "83086.72",
+                "items": [
+                  {
+                    "account_id": "09342b42-bfa9-459c-997b-f7dac52d32a6",
+                    "name": "Accrued Rent",
+                    "value": "69723.08"
+                  },
+                  {
+                    "account_id": "1cf73166-6064-4e55-875a-ede915e5f0cb",
+                    "name": "Payable to Character",
+                    "value": "9313.64"
+                  },
+                  {
+                    "account_id": "51818eb7-9561-4f26-8285-b391b90b3c21",
+                    "name": "Accounts Payable",
+                    "value": "4050.00"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "account_id": null,
+            "name": "Credit Cards",
+            "value": "854440.93",
+            "items": [
+              {
+                "account_id": null,
+                "name": "2004 Credit Card",
+                "value": "854440.93",
+                "items": [
+                  {
+                    "account_id": "420851e1-e6f4-4f2f-9a15-3634fa24bce0",
+                    "name": "Flex Bronze Card",
+                    "value": "5817.50"
+                  },
+                  {
+                    "account_id": "1a6c59d8-ae89-4704-b6ec-721da2e6b7c0",
+                    "name": "Flex Silver Card",
+                    "value": "797087.28"
+                  },
+                  {
+                    "account_id": "6112362b-0dac-4172-a3da-5c89e4487768",
+                    "name": "Flex Gold Card",
+                    "value": "76536.15"
+                  },
+                  {
+                    "account_id": "fc38e9a5-f2f5-45b0-8466-ecfc36d28561",
+                    "name": "Flex Platinum Card",
+                    "value": "-25000.00"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "account_id": null,
+        "name": "Long-Term Liabilities",
+        "value": "10491.24",
+        "items": [
+          {
+            "account_id": "220",
+            "name": "Settle Loans Payable",
+            "value": "10491.24"
+          }
+        ]
+      }
+    ]
+  },
+  "equity": {
+    "name": "Equity",
+    "value": "12399101.55",
+    "items": [
+      {
+        "account_id": null,
+        "name": "Owners Equity",
+        "value": "-95000.00",
+        "items": [
+          {
+            "account_id": "831b6852-6f82-4ce1-b07b-88601d16457d",
+            "name": "Owner's Equity",
+            "value": "-95000.00"
+          }
+        ]
+      },
+      {
+        "account_id": "b1ba5fb3-5d54-4806-ad8d-e78bd2187e13",
+        "name": "Retained Earnings",
+        "value": "11881707.50"
+      },
+      {
+        "account_id": "49862dbf-e470-479e-98ae-c1e172bd86a3",
+        "name": "Balance Adjustments",
+        "value": "122453.09"
+      },
+      {
+        "account_id": null,
+        "name": "Net Income",
+        "value": "489940.96"
+      }
+    ]
+  }
+}
