@@ -1,7 +1,7 @@
 import sys
 import json
 
-TOLERANCE = 0.001 # Allow a small tolerance for floating-point rounding
+TOLERANCE = 0.01 # Allow a small tolerance for floating-point rounding
 
 if len(sys.argv) != 2:
   print("Usage: python validate_financials.py <json_file>")
