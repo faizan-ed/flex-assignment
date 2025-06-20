@@ -82,6 +82,8 @@ All monetary values are stored as string in the JSON file. JSON supports numeric
 
 ## Data Validation
 
+Currently, data validation is done to check if the child-level accounts roll-up to the parent level.
+
 Run the script as follows:
 
 ```sh
@@ -89,6 +91,13 @@ python validate_financials.py balance_sheet.json
 ```
 
 > NOTE: Need Python 3.9.6 to run
+
+**Example output**:
+
+```sh
+Discrepancies found:
+Path: LIABILITIES/Liabilities/Current Liabilities, Expected: 1014525.75, Calculated: 937527.65, Difference: -76998.1
+```
 
 ## Next Steps
 
